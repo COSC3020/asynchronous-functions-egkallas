@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/26dp6wek)
 # Asynchronicity
 
 Implement a function that takes an array and a key to search for and counts the
@@ -20,3 +21,5 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+The worst-case time complexity of this algorithm is $\Theta(n)$. No matter the input, the algorithm must iterate through the entire array to find matches to the key. This scales linearly with the input, giving it an overall complexity of $\Theta(n)$.
