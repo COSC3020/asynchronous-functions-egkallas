@@ -1,6 +1,7 @@
 const fs = require('fs');
 const assert = require('assert');
 eval(fs.readFileSync('code.js')+'');
+const async = require('async');
 
 
 const arg1 = [2, 2, 4, 2];
